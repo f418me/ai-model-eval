@@ -9,6 +9,9 @@ This python script can be used to asks different openai models the same question
 Add a .env file with the following content:
 
 ```OPENAI_API_KEY=<your openai api key>```
+
+Install the requirements:
+
 ```pip3 install -r requirements.txt```
 
 
@@ -16,6 +19,3 @@ Add a .env file with the following content:
 
 ```python3 openAIModelEvaluation.py```
 
-Runs a local Lllama model.
-
-huggingface-cli login --token $HUGGINGFACE_TOKEN
